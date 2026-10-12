@@ -1,0 +1,6 @@
+com\example\service\PerformanceTestService.class
+com\example\service\DataInitService.class
+com\example\App.class
+com\example\model\Auteur.class
+com\example\service\PerformanceTestService$Chargement.class
+com\example\model\Livre.class

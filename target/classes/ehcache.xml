@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.ehcache.org/v3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core.xsd">
+    <cache alias="AuteurRegion">
+        <key-type>java.lang.Object</key-type>
+        <value-type>java.lang.Object</value-type>
+        <expiry><ttl unit="minutes">30</ttl></expiry>
+        <resources><heap unit="entries">500</heap></resources>
+    </cache>
+    <cache alias="LivreRegion">
+        <key-type>java.lang.Object</key-type>
+        <value-type>java.lang.Object</value-type>
+        <expiry><ttl unit="minutes">30</ttl></expiry>
+        <resources><heap unit="entries">2000</heap></resources>
+    </cache>
+    <cache alias="AuteurLivresRegion">
+        <key-type>java.lang.Object</key-type>
+        <value-type>java.lang.Object</value-type>
+        <expiry><ttl unit="minutes">30</ttl></expiry>
+        <resources><heap unit="entries">1000</heap></resources>
+    </cache>
+</config>
